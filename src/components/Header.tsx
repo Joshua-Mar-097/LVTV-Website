@@ -1,4 +1,6 @@
 import LvtvLogo from "../assets/lvtv-logo.jpg";
+import { NavLink } from "react-router-dom";
+
 function Header() {
   return (
     <header className="bg-custom">
@@ -19,24 +21,24 @@ function Header() {
         <div className="flex justify-center">
           <ul className="flex text-center gap-[4vw]">
             <li>
-              <a className="text-xl hover:text-white" href="#">
+              <NavLink className="text-xl hover:text-white" to="/Home">
                 Home
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a className="text-xl hover:text-white" href="#">
-                Teleradio
-              </a>
+              <NavLink className="text-xl hover:text-white" to="/TeleRadio">
+                TeleRadio
+              </NavLink>
             </li>
             <li>
-              <a className="text-xl hover:text-white" href="#">
+              <NavLink className="text-xl hover:text-white" to="/OurStory">
                 Our Story
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a className="text-xl hover:text-white" href="#">
+              <NavLink className="text-xl hover:text-white" to="/Archives">
                 Archives
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>
