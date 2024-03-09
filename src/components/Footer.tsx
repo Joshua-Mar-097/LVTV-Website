@@ -34,14 +34,14 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="w-full bg-blue-900 text-white px-10">
+            <div className="w-full bg-custom text-white px-10">
                 <div>
                     <div className="text-center"> 
                         <div>
                             Copyright <strong><span>LVTV</span></strong>. All Rights Reserced
                         </div>
                         <div>
-                            Designed by <a href="#" className="text-yellow-400">TailwindCss</a>
+                            Designed by <a href="https://tailwindcss.com/" target = '_blank' className="text-yellow-400">TailwindCss</a>
                         </div>
                     </div>
                 </div>

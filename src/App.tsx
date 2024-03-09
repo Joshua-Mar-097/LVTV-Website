@@ -5,12 +5,19 @@ import "./output.css";
 
 function App(){
   return (
-  <div>
-    <Header />
-    <div className="absolute inset-x-0 bottom-0 h-16 ...">
-      <Footer />
+  <body className="bgcolor-blue-950">
+    <div>
+      <Header />
+      <div className="flex justify-between items-center 2-[92%] mx-auto">
+        <div>
+
+        </div>
+      </div>
+      <div className="absolute inset-x-0 bottom-0 h-16 ...">
+        <Footer />
+      </div>
     </div>
-  </div>
+  </body>
   );
 }
 export default App;
