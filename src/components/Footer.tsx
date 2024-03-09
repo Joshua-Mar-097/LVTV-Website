@@ -38,7 +38,7 @@ function Footer() {
                 <div>
                     <div className="text-center"> 
                         <div>
-                            Copyright <strong><span>LVTV</span></strong>. All Rights Reserced
+                            Copyright <strong><span>LVTV</span></strong>. All Rights Reserved
                         </div>
                         <div>
                             Designed by <a href="https://tailwindcss.com/" target = '_blank' className="text-yellow-400">TailwindCss</a>
