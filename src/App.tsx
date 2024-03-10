@@ -11,7 +11,7 @@ import "./output.css";
 
 function App() {
   return (
-    <body className="bgcolor-blue-950">
+    <body>
       <div>
         <Router>
           <Header />
